@@ -28,7 +28,7 @@ jobs:
           echo "version=$VER" >> "$GITHUB_OUTPUT"
       - name: Build and push Docker image
         run: |
-          IMAGE="ghcr.io/${{ github.repository_owner }}/obs-simulator-building"
+          IMAGE="ghcr.io/${{ github.repository_owner }}/obs-simulators-building"
           IMAGE=$(echo "$IMAGE" | tr '[:upper:]' '[:lower:]')
           VER="${{ steps.version.outputs.version }}"
           docker build -t "$IMAGE:$VER" -t "$IMAGE:latest" simulators/building/
