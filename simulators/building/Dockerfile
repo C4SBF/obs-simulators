@@ -25,3 +25,4 @@ COPY . .
 
 # Default entrypoint
 ENTRYPOINT ["uv", "run", "building-simulator", "--"]
+CMD ["--equipment", "ahu"]
