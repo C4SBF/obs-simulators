@@ -1,6 +1,6 @@
 # Realistic Building BACnet Simulator
 
-A comprehensive BACnet simulator that models a complete 3-floor office building with proper HVAC physics, control loops, and equipment relationships.
+A BACnet simulator that models a complete 3-floor office building with proper HVAC physics, control loops, and equipment relationships.
 
 ## Overview
 

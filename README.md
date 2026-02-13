@@ -1,11 +1,11 @@
 # OBS Simulators
 
-A collection of realistic simulators for building systems and industrial equipment, designed for testing the Onboard Data Graph and classification systems.
+A collection of realistic simulators for building systems and industrial equipment, designed for testing the BACnet discovery and classification systems.
 
 ## Available Simulators
 
 ### 1. Building Simulator (`simulators/building`)
-A comprehensive BACnet simulator modeling a 3-floor office building with:
+A BACnet simulator modeling a 3-floor office building with:
 - **AHU-1**: Main air handling unit
 - **Chiller-1**: Central cooling plant
 - **VAVs**: 6 variable air volume terminal units (2 per floor)
