@@ -1,0 +1,17 @@
+[project]
+name = "building-simulator"
+version = "0.1.0"
+description = "Realistic Building BACnet Simulator using BACpypes3"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bacpypes3>=0.0.98",
+    "ifaddr>=0.2.0",
+]
+
+[project.scripts]
+building-simulator = "simulator:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
